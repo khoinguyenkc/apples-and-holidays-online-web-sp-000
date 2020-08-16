@@ -74,6 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do | season, contentHS |
     puts "#{season.to_s.capitalize}:"
     contentHS.each do | holiday, supplyarray|
+      #the order which method you use first absolutely matters
       lowercaseholidaystringarray = holiday.to_s.split("_")
       uppercaseholidaystringarray = lowercaseholidaystringarray.map do |word|
         word.capitalize

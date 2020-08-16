@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do | season, contentHS |
     puts "#{seaason.to_s}"
   end
-  
+
 end
 
 def all_holidays_with_bbq(holiday_hash)

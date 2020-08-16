@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
         word.capitalize
       end
       holidaystring = uppercaseholidaystringarray.join(" ")
-      
+
       supplystring = supplyarray.join(", ")
       puts "  #{holidaystring}: #{supplystring}"
     end
